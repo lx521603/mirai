@@ -56,7 +56,7 @@ const items = computed(() => [{
     <template #right>
       <UColorModeButton />
 
-      <UContentSearchButton class="lg:hidden" />
+<!--     <UContentSearchButton class="lg:hidden" />
 
       <UButton
         icon="i-lucide-log-in"
@@ -80,7 +80,7 @@ const items = computed(() => [{
         trailing-icon="i-lucide-arrow-right"
         class="hidden lg:inline-flex"
         to="/signup"
-      />
+      /> -->
     </template>
 
     <template #body>
@@ -100,7 +100,7 @@ const items = computed(() => [{
       </template>
 
       <USeparator class="my-6" />
-
+<!--
       <UButton
         label="Sign in"
         color="neutral"
@@ -114,7 +114,7 @@ const items = computed(() => [{
         color="neutral"
         to="/signup"
         block
-      />
+      />-->
     </template>
   </UHeader>
 </template>

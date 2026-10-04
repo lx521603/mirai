@@ -32,9 +32,9 @@ useSeoMeta({
         />
       </template>
 
-      <PromotionalVideo />
+   <!--   <PromotionalVideo />-->
     </UPageHero>
-<!--
+
     <UPageSection
       v-for="(section, index) in page.sections"
       :key="index"
@@ -46,7 +46,7 @@ useSeoMeta({
     >
       <ImagePlaceholder />
     </UPageSection>
-
+<!--
     <UPageSection
       :title="page.features.title"
       :description="page.features.description"

@@ -1,40 +1,40 @@
 title: Mirai Studio
-description: Coming Soon
+description: 收集生活中一切值得驻足的美好与趣味。
 seo:
   title: Mirai Studio
   description: Mirai Studio
 navigation: false
 hero:
   links:
-    - label: Get started
+    - label: Blog
       icon: i-lucide-arrow-right
       trailing: true
-      to: https://mirai.st
+      to: '/blog'
       target: _blank
       size: xl
-    - label: Use this template
+    - label: Log
       icon: i-simple-icons-github
       size: xl
       color: neutral
       variant: subtle
-      to: https://mirai.st
+      to: '/changelog'
       target: _blank
 sections:
-  - title: Powered by Nuxt UI Components
-    description: Access the complete Nuxt UI component library with 100+ beautifully styled, accessible, and customizable Vue components. Everything you need to build professional SaaS applications.
+  - title: 记录生活的美好瞬间
+    description: 每一次快门、每一段文字，都是对时光的温柔收藏。这里记录着旅途中的风景、街角的偶遇、以及那些让人忍不住微笑的小确幸。
     id: features
     orientation: horizontal
     features:
-      - name: 100+ UI Components
-        description: From buttons to modals, data tables to forms - all styled with Tailwind CSS and accessible out of the box.
-        icon: i-lucide-package
-      - name: Authentication Ready
-        description: Pre-built login, signup, and password reset flows. Just connect your backend and start onboarding users.
-        icon: i-lucide-shield
-      - name: TypeScript First
-        description: Full TypeScript support with auto-completion, type safety, and IntelliSense for every component and composable.
-        icon: i-lucide-code-xml
-  - title: Built for Modern SaaS
+      - name: 旅途见闻
+        description: 从雪山之巅到海岛之滨，用镜头和文字定格那些值得被反复回味的风景与故事。
+        icon: i-lucide-plane
+      - name: 日常拾趣
+        description: 一杯咖啡的香气、一本好书的感悟、一次不期而遇的对话——生活的美，藏在细节里。
+        icon: i-lucide-coffee
+      - name: 奇思妙想
+        description: 那些突然冒出的灵感、好玩的工具、有趣的发现，都值得被记录下来，分享给同样好奇的你。
+        icon: i-lucide-lightbulb
+ <!-- - title: Built for Modern SaaS
     description: Everything you need to launch and scale your SaaS. From beautiful marketing pages to complex dashboards, ship faster with production-ready patterns.
     orientation: horizontal
     reverse: true
@@ -47,7 +47,7 @@ sections:
         icon: i-lucide-moon
       - name: Global Ready
         description: Built-in i18n support for 50+ languages with RTL/LTR layouts and @nuxt/fonts integration.
-        icon: i-lucide-globe
+        icon: i-lucide-globe -->
 features:
   title: Everything You Need to Ship
   description: Stop building from scratch. Focus on your unique features while Nuxt UI handles the foundations with battle-tested components and patterns.

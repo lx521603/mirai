@@ -19,7 +19,10 @@ watch(searchOpen, (value) => {
   }
 })
 
-const items = computed(() => [/*{
+const items = computed(() => [{
+  label: 'Home',
+  to: '/'
+},/*{
   label: 'Docs',
   to: '/docs',
   active: isDocs.value

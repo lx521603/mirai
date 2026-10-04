@@ -18,7 +18,7 @@
     <template #right>
       <!-- 1. X (原 Twitter) -->
       <UButton
-        to="https://x.com/SaistX"
+        to="https://x.com/oniyt1980"
         target="_blank"
         icon="i-simple-icons-x"
         aria-label="X (Twitter)"
@@ -28,7 +28,7 @@
       
       <!-- 2. Instagram -->
       <UButton
-        to="https://www.instagram.com/viviwang911/"
+        to="https://www.instagram.com/miraist80/"
         target="_blank"
         icon="i-simple-icons-instagram"
         aria-label="Instagram"
@@ -36,15 +36,6 @@
         variant="ghost"
       />
       
-      <!-- 3. Facebook (直接使用你提供的分享链接，完美跳转) -->
-      <UButton
-        to="https://www.facebook.com/share/1Cwjv4oLZr/"
-        target="_blank"
-        icon="i-simple-icons-facebook"
-        aria-label="Facebook"
-        color="neutral"
-        variant="ghost"
-      />
     </template>
   </UFooter>
 </template>

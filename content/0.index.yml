@@ -1,15 +1,15 @@
-title: Ship Your [SaaS]{class="text-primary"} at light speed
-description: Build production-ready SaaS applications with Nuxt UI's powerful components, authentication flows, and enterprise features. The same component library trusted by the entire Nuxt ecosystem.
+title: Mirai Studio
+description: Coming Soon
 seo:
-  title: Nuxt SaaS Template
-  description: Create stunning, fast and production-ready SaaS applications with Nuxt UI. 100+ Vue components, authentication, dark mode, and enterprise features built on Tailwind CSS.
+  title: Mirai Studio
+  description: Mirai Studio
 navigation: false
 hero:
   links:
     - label: Get started
       icon: i-lucide-arrow-right
       trailing: true
-      to: https://ui.nuxt.com/docs/getting-started/installation/nuxt
+      to: https://mirai.st
       target: _blank
       size: xl
     - label: Use this template
@@ -17,7 +17,7 @@ hero:
       size: xl
       color: neutral
       variant: subtle
-      to: https://github.com/nuxt-ui-templates/saas
+      to: https://mirai.st
       target: _blank
 sections:
   - title: Powered by Nuxt UI Components

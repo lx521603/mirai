@@ -13,12 +13,12 @@ useHead({
     { rel: 'icon', href: '/favicon.ico' }
   ],
   htmlAttrs: {
-    lang: 'en'
+    lang: 'zh_CN'
   }
 })
 
 useSeoMeta({
-  titleTemplate: '%s - Nuxt SaaS template',
+  titleTemplate: '%s - Mirai Studio',
   twitterCard: 'summary_large_image'
 })
 

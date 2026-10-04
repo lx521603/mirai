@@ -19,14 +19,11 @@ watch(searchOpen, (value) => {
   }
 })
 
-const items = computed(() => [{
+const items = computed(() => [/*{
   label: 'Docs',
   to: '/docs',
   active: isDocs.value
-}, {
-  label: 'Pricing',
-  to: '/pricing'
-}, {
+}, */{
   label: 'Blog',
   to: '/blog'
 }, {
@@ -45,7 +42,7 @@ const items = computed(() => [{
         <AppLogo class="w-auto h-6 shrink-0" />
       </NuxtLink>
 
-      <TemplateMenu />
+      
     </template>
 
     <UNavigationMenu

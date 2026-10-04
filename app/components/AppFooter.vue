@@ -1,52 +1,5 @@
 <script setup lang="ts">
-const columns = [{
-  label: 'Resources',
-  children: [{
-    label: 'Help center'
-  }, {
-    label: 'Docs'
-  }, {
-    label: 'Roadmap'
-  }, {
-    label: 'Changelog'
-  }]
-}, {
-  label: 'Features',
-  children: [{
-    label: 'Affiliates'
-  }, {
-    label: 'Portal'
-  }, {
-    label: 'Jobs'
-  }, {
-    label: 'Sponsors'
-  }]
-}, {
-  label: 'Company',
-  children: [{
-    label: 'About'
-  }, {
-    label: 'Pricing'
-  }, {
-    label: 'Careers'
-  }, {
-    label: 'Blog'
-  }]
-}]
-
-const toast = useToast()
-
-const email = ref('')
-const loading = ref(false)
-
-function onSubmit() {
-  loading.value = true
-
-  toast.add({
-    title: 'Subscribed!',
-    description: 'You\'ve been subscribed to our newsletter.'
-  })
-}
+// 逻辑部分保持原样或留空即可
 </script>
 
 <template>
@@ -55,67 +8,40 @@ function onSubmit() {
     class="h-px"
   />
 
-  <UFooter :ui="{ top: 'border-b border-default' }">
-    <template #top>
-      <UContainer>
-        <UFooterColumns :columns="columns">
-          <template #right>
-            <form @submit.prevent="onSubmit">
-              <UFormField
-                name="email"
-                label="Subscribe to our newsletter"
-                size="lg"
-              >
-                <UInput
-                  v-model="email"
-                  type="email"
-                  class="w-full"
-                  placeholder="Enter your email"
-                >
-                  <template #trailing>
-                    <UButton
-                      type="submit"
-                      size="xs"
-                      color="neutral"
-                      label="Subscribe"
-                    />
-                  </template>
-                </UInput>
-              </UFormField>
-            </form>
-          </template>
-        </UFooterColumns>
-      </UContainer>
-    </template>
-
+  <UFooter>
     <template #left>
       <p class="text-muted text-sm">
-        Built with Nuxt UI • © {{ new Date().getFullYear() }}
+        Mirai.st • © {{ new Date().getFullYear() }}
       </p>
     </template>
 
     <template #right>
+      <!-- 1. X (原 Twitter) -->
       <UButton
-        to="https://go.nuxt.com/discord"
-        target="_blank"
-        icon="i-simple-icons-discord"
-        aria-label="Nuxt on Discord"
-        color="neutral"
-        variant="ghost"
-      />
-      <UButton
-        to="https://go.nuxt.com/x"
+        to="https://x.com/SaistX"
         target="_blank"
         icon="i-simple-icons-x"
-        aria-label="Nuxt on X"
+        aria-label="X (Twitter)"
         color="neutral"
         variant="ghost"
       />
+      
+      <!-- 2. Instagram -->
       <UButton
-        to="https://github.com/nuxt-ui-templates/saas"
+        to="https://www.instagram.com/viviwang911/"
         target="_blank"
-        icon="i-simple-icons-github"
-        aria-label="Nuxt UI on GitHub"
+        icon="i-simple-icons-instagram"
+        aria-label="Instagram"
+        color="neutral"
+        variant="ghost"
+      />
+      
+      <!-- 3. Facebook (直接使用你提供的分享链接，完美跳转) -->
+      <UButton
+        to="https://www.facebook.com/share/1Cwjv4oLZr/"
+        target="_blank"
+        icon="i-simple-icons-facebook"
+        aria-label="Facebook"
         color="neutral"
         variant="ghost"
       />

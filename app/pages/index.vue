@@ -34,7 +34,7 @@ useSeoMeta({
 
       <PromotionalVideo />
     </UPageHero>
-
+<!--
     <UPageSection
       v-for="(section, index) in page.sections"
       :key="index"
@@ -93,6 +93,6 @@ useSeoMeta({
       class="overflow-hidden"
     >
       <LazyStarsBg />
-    </UPageCTA>
+    </UPageCTA>-->
   </div>
 </template>

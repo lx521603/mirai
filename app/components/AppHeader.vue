@@ -112,7 +112,7 @@ const items = computed(() => [{
       <UButton
         label="联系我"
         color="neutral"
-        to="mailto:x@mairai.st"
+        to="mailto:x@mirai.st"
         block
       />
     </template>

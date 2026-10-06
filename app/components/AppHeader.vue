@@ -30,7 +30,7 @@ const items = computed(() => [{
   label: 'Blog',
   to: '/blog'
 }, {
-  label: 'Changelog',
+  label: '最新动态',
   to: '/changelog'
 }])
 </script>

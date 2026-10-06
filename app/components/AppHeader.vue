@@ -73,14 +73,14 @@ const items = computed(() => [{
         to="/login"
         class="hidden lg:inline-flex"
       />
-
+-->
       <UButton
-        label="Sign up"
+        label="联系我"
         color="neutral"
         trailing-icon="i-lucide-arrow-right"
         class="hidden lg:inline-flex"
-        to="/signup"
-      /> -->
+        to="mailto:x@mirai.st"
+      />
     </template>
 
     <template #body>
@@ -108,13 +108,13 @@ const items = computed(() => [{
         to="/login"
         block
         class="mb-3"
-      />
-      <UButton
-        label="Sign up"
-        color="neutral"
-        to="/signup"
-        block
       />-->
+      <UButton
+        label="联系我"
+        color="neutral"
+        to="mailto:x@mairai.st"
+        block
+      />
     </template>
   </UHeader>
 </template>
